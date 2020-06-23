@@ -1,0 +1,79 @@
+GET API
+http://localhost:8080//api/users
+[
+    {
+        "id": 1,
+        "firstname": "Satish",
+        "lastname": "Prasad",
+        "email": "satis@gmail.com"
+    },
+    {
+        "id": 2,
+        "firstname": "Ms",
+        "lastname": "Dhoni",
+        "email": "ms@gmail.com"
+    },
+    {
+        "id": 3,
+        "firstname": "Akshay",
+        "lastname": "Kumar",
+        "email": "ak@gmail.com"
+    },
+    {
+        "id": 4,
+        "firstname": "Salman",
+        "lastname": "Khan",
+        "email": "sk@gmail.com"
+    },
+    {
+        "id": 5,
+        "firstname": "Virat",
+        "lastname": "Kohli",
+        "email": "vk@gmail.com"
+    },
+    {
+        "id": 6,
+        "firstname": "Rohit",
+        "lastname": "Sharma",
+        "email": "rs@gmail.com"
+    },
+    {
+        "id": 7,
+        "firstname": "Mahesh",
+        "lastname": "Kumar",
+        "email": "mk@gmail.com"
+    }
+]
+
+----------------------------------------
+
+http://localhost:8080//api/users/5
+{
+    "id": 5,
+    "firstname": "Virat",
+    "lastname": "Kohli",
+    "email": "vk@gmail.com"
+}
+
+========================================
+
+POST API
+http://localhost:8080//api/users
+{
+	"firstname":"Satish",
+	"lastname":"Prasad",
+	"email":"satis@gmail.com"
+}
+=======================================
+
+PUT API
+http://localhost:8080//api/users
+{
+	"firstname":"Satish",
+	"lastname":"Prasad",
+	"email":"satis@gmail.com"
+}
+=======================================
+DELETE API
+http://localhost:8080//api/users/5
+
